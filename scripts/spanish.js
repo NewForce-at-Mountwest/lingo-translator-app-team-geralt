@@ -47,3 +47,10 @@ const spanishData = {
     }
   };
 
+  
+  document.querySelector("#spanish").addEventListener("click", function () {
+    const pageContainer = document.querySelector("#language-container");
+    document.querySelector("#language-container").innerHTML = h1(spanishData.name, "spanish");
+    
+
+  })
