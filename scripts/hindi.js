@@ -57,3 +57,9 @@
     }
     }
   };
+
+  document.querySelector("#language-container").innerHTML = h1(hindiData.name, "hindi-heading")
+
+ 
+
+  

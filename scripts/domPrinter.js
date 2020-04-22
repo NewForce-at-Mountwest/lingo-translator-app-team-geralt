@@ -6,8 +6,19 @@
 // For example, we can define a function here that prints an H1 element
 
 const h1 = (text, classNames) => {
-    return `<h1 class="${classNames}">${text}</h1>`
+    return `<h1 class="${classNames}">${text}</h1>
+    <div class="notable-people" id="${classNames}-people"><h3>Notable people that speak ${text}</h3>
+    </div>
+    <div class="fun-facts" id="${classNames}-facts"><h3>Fun facts about ${text}</h3></div>
+    <div class="countries" id="${classNames}-spoken"><h3>Countries where ${text} is spoken</h3></div>
+    <div class="translate-container" id="${classNames}-translate-container">
+      <form class="translate-form" id="${classNames}-translate-form">
+        <input type="text" class="translate-input" id="${classNames}-translate-form" placeholder="text">
+      <button class="translate-btn" id="${classNames}-translate-btn">Translate</button>
+      <section class="translate-phrase-area" id="${classNames}-translate-phrase-area">Translated phrase: </section>
+    </div>`
 }
+
 
 // Go to french.js to see how we can execute this function
 
