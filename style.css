@@ -1,0 +1,22 @@
+.container{
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+}
+h1{
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+.notable-people{
+    margin-bottom: 5vh;
+}
+.countries{
+    margin-bottom: 5vh;
+}
+.translate-input{
+    /* margin-top: 20px; */
+    margin-bottom: 5vh;
+}
